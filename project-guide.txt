@@ -1,0 +1,23 @@
+**📚 Book Recommendation Engine - Project Guide**
+
+**✅ Requirements:**  
+Build a K-Nearest Neighbors model that recommends 5 similar books for any input title using the Book-Crossings dataset (1.1M ratings).
+
+**🛠️ What I Built:**  
+- Preprocessed 270K books & 90K users with pandas  
+- Filtered for statistical significance (>100 ratings/book, >200 ratings/user)  
+- Created user-book rating matrix with sparse optimization  
+- Implemented KNN with cosine similarity metric  
+- Built function that returns: `[input_book, [[recommended_book, distance], ...]]`  
+
+**🎯 Key Challenge:**  
+Handling sparse data efficiently while maintaining recommendation quality.
+
+**📊 Validation:**  
+System successfully recommends books like "Catch-22" for vampire novels with measured distances.
+
+**🚀 Tech Stack:** Python, scikit-learn, pandas, NumPy
+
+**⭐ GitHub:** github.com/book-recommendation-engine-knn
+
+Perfect example of collaborative filtering in action! 🤖📖
